@@ -25,42 +25,42 @@ iOS app to help users decide where to eat out.
 
 **Required Must-have Stories**
 
-* User home screen
-    *[x] Login/sign up
-* Map display
-    * Shows name/location of restaurants
-    * User's current location
-* "Find Where to eat" button
-    * Takes all restaurante within location range, and decides one to eat at
-* Location range
-    * Default range 10-15 miles from user location
-* Screen that displays decided place to eat
-    * Location
-    * Contact info
-    * Operating Hours
+* -[ ] User home screen
+   * -[ ] Login/sign up
+* -[ ] Map display
+    * -[ ] Shows name/location of restaurants
+    * -[ ] User's current location
+* -[ ] "Find Where to eat" button
+    * -[ ] Takes all restaurante within location range, and decides one to eat at
+* -[ ] Location range
+    * -[ ] Default range 10-15 miles from user location
+* -[ ] Screen that displays decided place to eat
+    * -[ ] Location
+    * -[ ] Contact info
+    * -[ ] Operating Hours
 
 **Optional Nice-to-have Stories**
 
-* Information of Restuarants
-    * Operating Hours
-    * Photos
-    * Location
-    * Contact info
-    * Reviews(?)
-        * Likes
-        * Feedback
-* Filter Options
-    * Favorite/prefferred restaurrants
-    * Extend/limit location range
-    * Food categories
-        * Types of cuisine(i.e., American, Mexican, Asian, etc.)
-        * Price range
-        * Dining experience
-            * Fast food vs. dine-in
-            * Take-out options
-* Collaborative
-    * Several users contribute with filters
-        * Requires user creation/login
+* -[ ] Information of Restuarants
+    * -[ ] Operating Hours
+    * -[ ] Photos
+    * -[ ] Location
+    * -[ ] Contact info
+    * -[ ] Reviews(?)
+        * -[ ] Likes
+        * -[ ] Feedback
+* -[ ] Filter Options
+    * -[ ] Favorite/prefferred restaurrants
+    * -[ ] Extend/limit location range
+    * -[ ] Food categories
+        * -[ ] Types of cuisine(i.e., American, Mexican, Asian, etc.)
+        * -[ ] Price range
+        * -[ ] Dining experience
+            * -[ ] Fast food vs. dine-in
+            * -[ ] Take-out options
+* -[ ] Collaborative
+    * -[ ] Several users contribute with filters
+        * -[ ] Requires user creation/login
 
 ### 2. Screen Archetypes
 
