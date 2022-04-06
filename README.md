@@ -26,7 +26,7 @@ iOS app to help users decide where to eat out.
 **Required Must-have Stories**
 
 * User home screen
-    * Login/sign up
+    [] Login/sign up
 * Map display
     * Shows name/location of restaurants
     * User's current location
