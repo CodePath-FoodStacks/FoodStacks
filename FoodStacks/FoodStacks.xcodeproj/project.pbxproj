@@ -107,15 +107,14 @@
 		2CA5DF1727F54CF3002290D4 /* FoodStacks */ = {
 			isa = PBXGroup;
 			children = (
+				C288634227FE800D00048926 /* LogInAndLogout */,
+				C288634127FE7F5E00048926 /* Result */,
 				C288633E27FE7E6A00048926 /* RestaurantInfo */,
 				2CA5DF1827F54CF3002290D4 /* AppDelegate.swift */,
 				2CA5DF1A27F54CF3002290D4 /* SceneDelegate.swift */,
 				2CA5DF1C27F54CF3002290D4 /* ViewController.swift */,
 				2CA5DF2127F54CF6002290D4 /* Assets.xcassets */,
 				2CA5DF1E27F54CF3002290D4 /* Main.storyboard */,
-				2C69F35127F976D200898AE6 /* ResultViewController.storyboard */,
-				2C69F35527F9774F00898AE6 /* ResultViewController.swift */,
-				B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */,
 				2CA5DF2327F54CF6002290D4 /* LaunchScreen.storyboard */,
 				2CA5DF2627F54CF6002290D4 /* Info.plist */,
 			);
@@ -145,6 +144,23 @@
 				C288633F27FE7E8D00048926 /* ReastaurantStoryboard.storyboard */,
 			);
 			path = RestaurantInfo;
+			sourceTree = "<group>";
+		};
+		C288634127FE7F5E00048926 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				2C69F35127F976D200898AE6 /* ResultViewController.storyboard */,
+				2C69F35527F9774F00898AE6 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		C288634227FE800D00048926 /* LogInAndLogout */ = {
+			isa = PBXGroup;
+			children = (
+				B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */,
+			);
+			path = LogInAndLogout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
