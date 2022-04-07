@@ -19,6 +19,7 @@
 		2CA5DF3A27F54CF6002290D4 /* FoodStacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5DF3927F54CF6002290D4 /* FoodStacksUITests.swift */; };
 		2CA5DF3C27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5DF3B27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift */; };
 		B4A6F3F827FD180400EA9C1A /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */; };
+		C288634027FE7E8D00048926 /* ReastaurantStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C288633F27FE7E8D00048926 /* ReastaurantStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2CA5DF3927F54CF6002290D4 /* FoodStacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStacksUITests.swift; sourceTree = "<group>"; };
 		2CA5DF3B27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		C288633F27FE7E8D00048926 /* ReastaurantStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReastaurantStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		2CA5DF1727F54CF3002290D4 /* FoodStacks */ = {
 			isa = PBXGroup;
 			children = (
+				C288633E27FE7E6A00048926 /* RestaurantInfo */,
 				2CA5DF1827F54CF3002290D4 /* AppDelegate.swift */,
 				2CA5DF1A27F54CF3002290D4 /* SceneDelegate.swift */,
 				2CA5DF1C27F54CF3002290D4 /* ViewController.swift */,
@@ -134,6 +137,14 @@
 				2CA5DF3B27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift */,
 			);
 			path = FoodStacksUITests;
+			sourceTree = "<group>";
+		};
+		C288633E27FE7E6A00048926 /* RestaurantInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C288633F27FE7E8D00048926 /* ReastaurantStoryboard.storyboard */,
+			);
+			path = RestaurantInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 				2CA5DF2527F54CF6002290D4 /* LaunchScreen.storyboard in Resources */,
 				B4A6F3F827FD180400EA9C1A /* LoginViewController.storyboard in Resources */,
 				2CA5DF2227F54CF6002290D4 /* Assets.xcassets in Resources */,
+				C288634027FE7E8D00048926 /* ReastaurantStoryboard.storyboard in Resources */,
 				2CA5DF2027F54CF3002290D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
