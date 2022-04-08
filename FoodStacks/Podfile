@@ -6,6 +6,9 @@ target 'FoodStacks' do
   use_frameworks!
 
   # Pods for FoodStacks
+   pod 'Parse'
+   pod 'AlamofireImage'
+   pod 'MessageInputBar'
 
   target 'FoodStacksTests' do
     inherit! :search_paths
