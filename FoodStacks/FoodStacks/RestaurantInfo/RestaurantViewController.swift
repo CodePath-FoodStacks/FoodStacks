@@ -9,6 +9,11 @@ import UIKit
 
 class RestaurantViewController: UIViewController {
 
+    @IBOutlet weak var tryAgainButton: UIButton!
+    @IBOutlet weak var hourLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var restaurantNameLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
