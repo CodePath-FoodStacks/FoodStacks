@@ -24,9 +24,7 @@
 		BFCDB806CB05AE1F15A2D006 /* Pods_FoodStacks_FoodStacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976E235035DFF67B3E77B669 /* Pods_FoodStacks_FoodStacksUITests.framework */; };
 		C21546442806633800568AF8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21546432806633800568AF8 /* API.swift */; };
 		C21546472806637800568AF8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21546452806637000568AF8 /* MapKit.framework */; };
-		C21546482806637800568AF8 /* MapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C21546452806637000568AF8 /* MapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C215464A2806637A00568AF8 /* Pods_FoodStacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AB268BE12C31F52080643F /* Pods_FoodStacks.framework */; };
-		C215464B2806637A00568AF8 /* Pods_FoodStacks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9AB268BE12C31F52080643F /* Pods_FoodStacks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C288634027FE7E8D00048926 /* ReastaurantStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C288633F27FE7E8D00048926 /* ReastaurantStoryboard.storyboard */; };
 		C288634427FE80A400048926 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288634327FE80A400048926 /* RestaurantViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,21 +45,6 @@
 			remoteInfo = FoodStacks;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C21546492806637800568AF8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C21546482806637800568AF8 /* MapKit.framework in Embed Frameworks */,
-				C215464B2806637A00568AF8 /* Pods_FoodStacks.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0CC9A518F95BFB8AD58426C1 /* Pods_FoodStacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodStacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,7 +244,6 @@
 				2CA5DF1227F54CF3002290D4 /* Frameworks */,
 				2CA5DF1327F54CF3002290D4 /* Resources */,
 				87151F7EF4B3787E11FA9238 /* [CP] Embed Pods Frameworks */,
-				C21546492806637800568AF8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
