@@ -17,6 +17,7 @@ class Restaurant {
     var phone: String
     var rating: Double
     var reviews: Int
+    var coordinats: [String:Double]
     
     /*define the var to the API*/
     init(dict: [String: Any]) {
