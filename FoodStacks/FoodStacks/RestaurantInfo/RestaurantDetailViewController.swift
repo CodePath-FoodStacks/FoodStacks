@@ -7,18 +7,34 @@
 
 import UIKit
 
-class RestaurantViewController: UIViewController {
+class RestaurantDetailViewController: UIViewController {
 
+    // ––––– TODO: Configure outlets
+    @IBOutlet weak var starView: UIImageView!
+    @IBOutlet weak var reviewsLabel: UILabel!
     @IBOutlet weak var tryAgainButton: UIButton!
     @IBOutlet weak var hourLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var restaurantNameLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    
+    // Initialize restaurant variable
+    var restaurant: Restaurant!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
+    
+    func configureOutlets() {
+        restaurantNameLabel.text =
+        reviewsLabel.text = 
+        starView.image =
+        imageView.
+    }
+    
+    //*********************
+    
     
 
     /*
