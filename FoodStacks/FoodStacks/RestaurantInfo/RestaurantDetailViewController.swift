@@ -30,7 +30,7 @@ class RestaurantDetailViewController: UIViewController {
         restaurantNameLabel.text =
         reviewsLabel.text = 
         starView.image =
-        imageView.
+        imageView.image = 
     }
     
     //*********************
