@@ -22,6 +22,7 @@
 		3636BA0427FE82FA008BD0EE /* MapStoryBoard .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3636BA0327FE82FA008BD0EE /* MapStoryBoard .storyboard */; };
 		85976E3A6C408653DE36CA3F /* Pods_FoodStacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC9A518F95BFB8AD58426C1 /* Pods_FoodStacksTests.framework */; };
 		B4A6F3F827FD180400EA9C1A /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */; };
+		B4CAAFC92807BB3300631955 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CAAFC82807BB3300631955 /* LoginViewController.swift */; };
 		BFCDB806CB05AE1F15A2D006 /* Pods_FoodStacks_FoodStacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976E235035DFF67B3E77B669 /* Pods_FoodStacks_FoodStacksUITests.framework */; };
 		C21546472806637800568AF8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21546452806637000568AF8 /* MapKit.framework */; };
 		C215464A2806637A00568AF8 /* Pods_FoodStacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AB268BE12C31F52080643F /* Pods_FoodStacks.framework */; };
@@ -73,6 +74,7 @@
 		8ACFFF2E4E11BD296EB46EFD /* Pods-FoodStacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStacksTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodStacksTests/Pods-FoodStacksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		976E235035DFF67B3E77B669 /* Pods_FoodStacks_FoodStacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodStacks_FoodStacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		B4CAAFC82807BB3300631955 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C21546452806637000568AF8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C288633F27FE7E8D00048926 /* ReastaurantDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReastaurantDetailStoryboard.storyboard; sourceTree = "<group>"; };
 		C288634327FE80A400048926 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */,
+				B4CAAFC82807BB3300631955 /* LoginViewController.swift */,
 			);
 			path = LogInAndLogout;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CAAFC92807BB3300631955 /* LoginViewController.swift in Sources */,
 				2CA5DF1D27F54CF3002290D4 /* ViewController.swift in Sources */,
 				C288634427FE80A400048926 /* RestaurantDetailViewController.swift in Sources */,
 				2CA5DF1927F54CF3002290D4 /* AppDelegate.swift in Sources */,
