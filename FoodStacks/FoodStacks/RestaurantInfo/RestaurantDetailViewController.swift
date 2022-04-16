@@ -26,13 +26,13 @@ class RestaurantDetailViewController: UIViewController {
 
     }
     
-    func configureOutlets() {
-        restaurantNameLabel.text =
-        reviewsLabel.text = 
-        starView.image =
-        imageView.image =
-    }
-    
+//    func configureOutlets() {
+//        restaurantNameLabel.text =
+//        reviewsLabel.text =
+//        starView.image =
+//        imageView.image =
+//    }
+//
     
     
     
