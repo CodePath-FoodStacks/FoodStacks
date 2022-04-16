@@ -19,6 +19,7 @@
 		2CA5DF3027F54CF6002290D4 /* FoodStacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5DF2F27F54CF6002290D4 /* FoodStacksTests.swift */; };
 		2CA5DF3A27F54CF6002290D4 /* FoodStacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5DF3927F54CF6002290D4 /* FoodStacksUITests.swift */; };
 		2CA5DF3C27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5DF3B27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift */; };
+		360FA8032807B26700BEABED /* MapUiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360FA8022807B26700BEABED /* MapUiViewController.swift */; };
 		3636BA0427FE82FA008BD0EE /* MapStoryBoard .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3636BA0327FE82FA008BD0EE /* MapStoryBoard .storyboard */; };
 		85976E3A6C408653DE36CA3F /* Pods_FoodStacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC9A518F95BFB8AD58426C1 /* Pods_FoodStacksTests.framework */; };
 		B4A6F3F827FD180400EA9C1A /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */; };
@@ -65,6 +66,7 @@
 		2CA5DF3527F54CF6002290D4 /* FoodStacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodStacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA5DF3927F54CF6002290D4 /* FoodStacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStacksUITests.swift; sourceTree = "<group>"; };
 		2CA5DF3B27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		360FA8022807B26700BEABED /* MapUiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUiViewController.swift; sourceTree = "<group>"; };
 		3636BA0327FE82FA008BD0EE /* MapStoryBoard .storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "MapStoryBoard .storyboard"; sourceTree = "<group>"; };
 		37A10419FD5E657E5A8A2989 /* Pods-FoodStacks-FoodStacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStacks-FoodStacksUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodStacks-FoodStacksUITests/Pods-FoodStacks-FoodStacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F3F0D54A7CC5262A562C9AB /* Pods-FoodStacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStacks.release.xcconfig"; path = "Target Support Files/Pods-FoodStacks/Pods-FoodStacks.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				3636BA0327FE82FA008BD0EE /* MapStoryBoard .storyboard */,
+				360FA8022807B26700BEABED /* MapUiViewController.swift */,
 			);
 			path = MapStoryBoard;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				2CA5DF1B27F54CF3002290D4 /* SceneDelegate.swift in Sources */,
 				2C9298C72807B61A0037E0D2 /* API.swift in Sources */,
 				2C69F35627F9774F00898AE6 /* ResultViewController.swift in Sources */,
+				360FA8032807B26700BEABED /* MapUiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
