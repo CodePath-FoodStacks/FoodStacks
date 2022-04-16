@@ -226,8 +226,8 @@
 		C288634127FE7F5E00048926 /* Result */ = {
 			isa = PBXGroup;
 			children = (
-				2C69F35127F976D200898AE6 /* ResultViewController.storyboard */,
 				2C69F35527F9774F00898AE6 /* ResultViewController.swift */,
+				2C69F35127F976D200898AE6 /* ResultViewController.storyboard */,
 			);
 			path = Result;
 			sourceTree = "<group>";

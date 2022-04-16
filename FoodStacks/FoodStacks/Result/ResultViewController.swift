@@ -6,11 +6,19 @@
 //
 
 import UIKit
+import MapKit
 
 private let reuseIdentifier = "Cell"
 
 class ResultViewController: UICollectionViewController {
 
+    
+    @IBOutlet weak var resultImageView: UIImageView!
+    @IBOutlet weak var resultMapView: MKMapView!
+    @IBOutlet weak var resultRestaurantName: UILabel!
+    @IBOutlet weak var resultRestaurantAddress: UILabel!
+    @IBOutlet weak var resultRestaurantHours: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

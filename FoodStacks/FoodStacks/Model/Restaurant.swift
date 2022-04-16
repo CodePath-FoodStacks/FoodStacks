@@ -17,7 +17,7 @@ class Restaurant {
     var phone: String
     var rating: Double
     var reviews: Int
-    var coordinats: [String:Double]
+    var coordinates: [String:Double]
     
     /*define the var to the API*/
     init(dict: [String: Any]) {
@@ -29,7 +29,7 @@ class Restaurant {
         url = URL(string: dict["url"] as! String)
         mainCategory = Restaurant.getMainCategory(dict: dict)
         
-        
+        coordinates = dict["coordinates"] as! [String:Double]
     }
     
     // Helper function to get First category from restaurant
