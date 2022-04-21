@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="34" y="-1"/>
         </scene>
-        <!--Map-->
+        <!--loginRes-->
         <scene sceneID="Xfv-ku-eZ2">
             <objects>
-                <viewControllerPlaceholder storyboardName="MapStoryBoard " referencedIdentifier="Map" id="PnB-Af-HG3" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="LoginViewController" referencedIdentifier="loginRes" id="PnB-Af-HG3" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QOi-Ls-5Su" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="794" y="-1"/>

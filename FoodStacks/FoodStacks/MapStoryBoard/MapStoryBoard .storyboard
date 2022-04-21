@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -58,7 +58,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="FIND RANDOM"/>
                                 <connections>
                                     <action selector="findRes:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yU1-lv-ycG"/>
-                                    <segue destination="Mzh-W7-LRN" kind="presentation" id="ePN-1q-dba"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -73,14 +72,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
-        </scene>
-        <!--results-->
-        <scene sceneID="TZK-ae-1jx">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="results" storyboardName="resultStoryboard" referencedIdentifier="results" id="Mzh-W7-LRN" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T2B-T3-2HV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="673" y="84"/>
         </scene>
     </scenes>
     <resources>
