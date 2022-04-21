@@ -17,6 +17,7 @@ class ResultViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Hello")
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
