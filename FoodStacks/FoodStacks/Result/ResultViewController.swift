@@ -12,7 +12,7 @@ private let reuseIdentifier = "Cell"
 
 class ResultViewController: UICollectionViewController {
 
-    
+    var restuarant: [String:Any]?
 
     
     override func viewDidLoad() {

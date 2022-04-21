@@ -57,7 +57,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="FIND RANDOM"/>
                                 <connections>
-                                    <action selector="findRes:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yU1-lv-ycG"/>
+                                    <action selector="onFindRandom:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="KrU-dR-ODI"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -20,7 +20,7 @@
 		2CA5DF3C27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5DF3B27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift */; };
 		360FA806280F9DD900BEABED /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360FA805280F9DD900BEABED /* MapViewController.swift */; };
 		360FA80A280FA7E400BEABED /* resultStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360FA809280FA7E300BEABED /* resultStoryboard.storyboard */; };
-		3636BA0427FE82FA008BD0EE /* MapStoryBoard .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3636BA0327FE82FA008BD0EE /* MapStoryBoard .storyboard */; };
+		3636BA0427FE82FA008BD0EE /* MapStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3636BA0327FE82FA008BD0EE /* MapStoryBoard.storyboard */; };
 		85976E3A6C408653DE36CA3F /* Pods_FoodStacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC9A518F95BFB8AD58426C1 /* Pods_FoodStacksTests.framework */; };
 		B4A6F3F827FD180400EA9C1A /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A6F3F727FD180400EA9C1A /* LoginViewController.storyboard */; };
 		B4CAAFC92807BB3300631955 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CAAFC82807BB3300631955 /* LoginViewController.swift */; };
@@ -68,7 +68,7 @@
 		2CA5DF3B27F54CF6002290D4 /* FoodStacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		360FA805280F9DD900BEABED /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		360FA809280FA7E300BEABED /* resultStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = resultStoryboard.storyboard; sourceTree = "<group>"; };
-		3636BA0327FE82FA008BD0EE /* MapStoryBoard .storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "MapStoryBoard .storyboard"; sourceTree = "<group>"; };
+		3636BA0327FE82FA008BD0EE /* MapStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapStoryBoard.storyboard; sourceTree = "<group>"; };
 		37A10419FD5E657E5A8A2989 /* Pods-FoodStacks-FoodStacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStacks-FoodStacksUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodStacks-FoodStacksUITests/Pods-FoodStacks-FoodStacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F3F0D54A7CC5262A562C9AB /* Pods-FoodStacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStacks.release.xcconfig"; path = "Target Support Files/Pods-FoodStacks/Pods-FoodStacks.release.xcconfig"; sourceTree = "<group>"; };
 		6C872FB92231A9250CF0EC35 /* Pods-FoodStacks-FoodStacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStacks-FoodStacksUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodStacks-FoodStacksUITests/Pods-FoodStacks-FoodStacksUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		3636BA0527FE8315008BD0EE /* MapStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				3636BA0327FE82FA008BD0EE /* MapStoryBoard .storyboard */,
+				3636BA0327FE82FA008BD0EE /* MapStoryBoard.storyboard */,
 				360FA805280F9DD900BEABED /* MapViewController.swift */,
 			);
 			path = MapStoryBoard;
@@ -362,7 +362,7 @@
 				B4A6F3F827FD180400EA9C1A /* LoginViewController.storyboard in Resources */,
 				2CA5DF2227F54CF6002290D4 /* Assets.xcassets in Resources */,
 				C288634027FE7E8D00048926 /* ReastaurantDetailStoryboard.storyboard in Resources */,
-				3636BA0427FE82FA008BD0EE /* MapStoryBoard .storyboard in Resources */,
+				3636BA0427FE82FA008BD0EE /* MapStoryBoard.storyboard in Resources */,
 				2CA5DF2027F54CF3002290D4 /* Main.storyboard in Resources */,
 				360FA80A280FA7E400BEABED /* resultStoryboard.storyboard in Resources */,
 			);
