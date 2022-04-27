@@ -22,19 +22,19 @@ iOS app to help users decide where to eat out.
 ## Product Spec
 
 ### Build Progress
-<img src="https://media.giphy.com/media/WnpSNHKnfUYLqWKJy9/giphy.gif">
+<img src="http://g.recordit.co/KmtsZEAY3O.gif">
 
 ### 1. User Stories
 
 **Required Must-have Stories**
 
 * -[ ] User home screen
-   * -[ ] Login/sign up
-* -[ ] Map display
-    * -[ ] Shows name/location of restaurants
+   * -[x] Login/sign up
+* -[x] Map display
+    * -[x] Shows name/location of restaurants
     * -[ ] User's current location
-* -[ ] "Find Where to eat" button
-    * -[ ] Takes all restaurante within location range, and decides one to eat at
+* -[x] "Find Where to eat" button
+    * -[x] Takes all restaurante within location range, and decides one to eat at
 * -[ ] Location range
     * -[ ] Default range 10-15 miles from user location
 * -[ ] Screen that displays decided place to eat
